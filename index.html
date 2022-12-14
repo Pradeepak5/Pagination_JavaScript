@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagination</title>
+</head>
+<body>
+    <h1 id="title">Pagination</h1>
+    <p id="description">Here I have fetched the data and inserted into an table with a pagination.<h4> Click previous and next button for navigation.</h4></p>
+    <div class="table table-bordered">
+        <table class="table table-bordered" id="tblh" style="border-collapse: collapse;" border="2">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+            </thead>
+            <tbody class="table table-bordered" id="tbl">
+
+            </tbody>
+        </table>
+    </div>
+    <div class="table-responsive">
+        <div class="d-flex justify-content-center" id="button">
+            <ul>
+                <button class="btn1" id="prevbtn" >previous</button>
+                <li class="link li1 active" id="li1">1</li>
+                <li class="link li2" id="li2">2</li>
+                <li class="link li3" id="li3">3</li>
+                <li class="link li4" id="li4">4</li>
+                <li class="link li5" id="li5">5</li>
+                <button class="btn2" id="nextbtn" >next</button>
+            </ul>
+            
+        </div>
+    </div>
+    <script src="myScript.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
